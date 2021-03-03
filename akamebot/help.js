@@ -2,22 +2,22 @@
 const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam, tanggal) => { 
 	return `
 
-SUBSCRIBE:ANKER PRODUCTION
-DI SITU ADA TUTORIAL JADI BOT
+assinado por cychris
+HÁ UM TUTORIAL SO UMA AKAME
 
-╭──────「 *REGULATION ${name}* 」
+╭──────「 *REGULAMENTO ${name}* 」
 ┴
-┣⊱  \`\`\`NAMA USER:\`\`\` *${pushname2}*
-┣⊱  \`\`\`VERIVICATION:\`\`\` ✅
-┣⊱  \`\`\`LIMIT:\`\`\` *${limitt} perhari*
+┣⊱  \`\`\`NOME DE USUÁRIO:\`\`\` *${pushname2}*
+┣⊱  \`\`\`VERIFICAÇÃO:\`\`\` ✅
+┣⊱  \`\`\`LIMITE:\`\`\` *${limitt} perhari*
 ┣⊱  \`\`\`AKTIF:\`\`\` ${kyun(uptime)}
-┣⊱  \`\`\`JAM:\`\`\` *${jam} WIB*
-┣⊱  \`\`\`TANGGAL:\`\`\` *${tanggal}*
-┣⊱  \`\`\`VERSION:\`\`\` *6.5.0*
-┣⊱  \`\`\`USER TERDAFTAR:\`\`\` *${user.length} User*
+┣⊱  \`\`\`HORA:\`\`\` *${jam} WIB*
+┣⊱  \`\`\`ENCONTRO:\`\`\` *${tanggal}*
+┣⊱  \`\`\`VERSÃO:\`\`\` *6.5.0*
+┣⊱  \`\`\`USUÁRIO REGISTRADO:\`\`\` *${user.length} User*
 ┣⊱  ❌ *SPAM*
 ┣⊱  ❌ *CALL & VC*
-┣⊱  \`\`\`Melanggar??\`\`\` *Banned + Out Group*
+┣⊱  \`\`\`Quebrando??\`\`\` *Banned + Out Group*
 ┬
 ╰────────────────────────
 
@@ -63,15 +63,15 @@ DI SITU ADA TUTORIAL JADI BOT
 ╭──────「 *CREATOR MENU* 」
 ┴
 │➻ *${prefix}quotemaker tx/wtrmk/tema*
-│➻ *${prefix}nulis nama/kelas/text*
-│➻ *${prefix}croman FXC7 dan BOT*
-│➻ *${prefix}slide Fxc7 BOT WA*
+│➻ *${prefix}nulis nome/classe/texto*
+│➻ *${prefix}croman akame BOT*
+│➻ *${prefix}slide akame BOT WA*
 │
-│➻ *${prefix}tahta FXC7*
-│➻ *${prefix}cglass FXC7*
-│➻ *${prefix}cstyle FXC7*
-│➻ *${prefix}cgame FXC7*
-│➻ *${prefix}clove FXC7*
+│➻ *${prefix}tahta akame*
+│➻ *${prefix}cglass akame*
+│➻ *${prefix}cstyle akame*
+│➻ *${prefix}cgame akame*
+│➻ *${prefix}clove akame*
 │➻ *${prefix}cparty FXC7*
 │➻ *${prefix}csky FXC7*
 │➻ *${prefix}tts id Haii*
