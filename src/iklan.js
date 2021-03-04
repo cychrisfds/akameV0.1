@@ -10,9 +10,9 @@ const iklan = () => {
 ╠➥ *PIC PAY,*
 ╠═══════════════════════════
 ╠➥ *VANTAGENS*
-╠➥ *wa.me/556993733829*
+╠➥ *wa.me//5581996207906*
 ║
-╚═〘 NABUTO BOT 〙
+╚═〘 AKAME BOT 〙
 `
 }
 exports.iklan = iklan
