@@ -4,7 +4,7 @@ const modapk = () => {
 • Quer baixar algo?
 
 
-👾 *APROVEITEM* NABUTO SEMPRE LHE AJUDANDO 😎❤️✋
+👾 *APROVEITEM* AKAME SEMPRE LHE AJUDANDO 😎❤️✋
 
 • Minecraft (Original)
 https://www.mediafire.com/file/4hixmktsfkhky91/Minecraft_v1.16.101.01_Terbaru.zip/file
