@@ -52,19 +52,19 @@ const { limit } = require('./database/menu/limit*/
 const apivhtear = 'apivhtear';
 const apibarbar = 'apibarbar';
 const tobzkey = 'apitobz';
-const BotName = 'nabutobot'; 
+const BotName = 'akamebot'; 
 const instagram = 'http://www.instagram.com/'; 
 const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + 'FN:nabuto\n' // Nama kamu
+            + 'FN:cychris\n' // Nama kamu
             + 'ORG:Lexa;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=556993733829:+55 699373-3829\n' //Nomor whatsapp kamu
+            + 'TEL;type=CELL;type=VOICE;waid=5581996207906:+55 8199620-7906\n' //Nomor whatsapp kamu
             + 'END:VCARD'
-prefix = '/','*','.'
+prefix = '/','!','.'
 blocked = []
 limitawal = '999999999'
-cr = '*nabuto*'
+cr = '*akamebot*'
 
 /*********** LOAD FILE ***********/
 const _leveling = JSON.parse(fs.readFileSync('./database/group/leveling.json'))
@@ -235,7 +235,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `𝙁𝙡𝙬 @${num.split('@')[0]} 😣✋`
+				teks = `𝙁𝙡𝙬 @${num.split('@')[0]} 😎✋`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
