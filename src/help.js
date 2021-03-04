@@ -1,19 +1,19 @@
 const help = (prefix) => {
 	return `
 
-𝗕𝗢𝗧 𝗡𝗔𝗕𝗨𝗧𝗜𝗡
+AKAME BOT
 𝗜𝗡𝗙𝗢𝗦:
 
- *O BOT SE ENCONTRA: ON-LINE*
+ *A BOT SE ENCONTRA: ON-LINE*
  ▬▬▬▬▬▬▬【☪】▬▬▬▬▬▬▬
- *DONO*: NABUTO LS
+ *DONO*: cychris⚡
  ▬▬▬▬▬▬▬【☪】▬▬▬▬▬▬▬
- *PREFIXO*:[ / ]
+ *PREFIXO*:[ / ] [ ! ]
  ▬▬▬▬▬▬▬【☪】▬▬▬▬▬▬▬
- *WHATSAPP*: wa.me/556993733829
+ *WHATSAPP*: wa.me//5581996207906
  ▬▬▬▬▬▬▬【☪】▬▬▬▬▬▬▬
- *GRUPO OFC*:  https://chat.whatsapp.com/J2ZGIuyEx1hAUmjjIqXZD5
- *GRUPO ²*: https://chat.whatsapp.com/DFmKl2MyPZvDzgDZIWr6l0
+ *Insta do dono*: 
+ *Insta da bot*:
  ▬▬▬▬▬▬▬【☪】▬▬▬▬▬▬▬
 
 
@@ -227,9 +227,9 @@ const help = (prefix) => {
 ➛ *${prefix}belle [img aleatórias]*
 ➛ *${prefix}pronomeneu [texto]*
 ➛ *${prefix}hobby*
-➛ *𝗡𝗢𝗠𝗘: nabuto
-➛ *𝗪𝗣𝗣: wa.me/+556993733829
-【 NABUTO 】
+➛ *𝗡𝗢𝗠𝗘: akame
+➛ *𝗪𝗣𝗣: wa.me//558185982721
+【 AKAME 】
 ➢【 𝗖𝗢𝗠𝗔𝗡𝗗𝗢𝗦 𝗗𝗘 𝗠𝗨𝗦𝗜𝗖𝗔 】
 
 ➛ *${prefix} em teste
@@ -262,13 +262,13 @@ Mandar a msg sem o prefixo
 
 ➢【 𝗗𝗢𝗡𝗢 】
 
- *𝗡𝗢𝗠𝗘: nabuto
- *𝗪𝗣𝗣: wa.me/+556993733829
+ *𝗡𝗢𝗠𝗘: chris
+ *𝗪𝗣𝗣: wa.me//5581996207906
 
 
 
 
-【 NABUTO 】`
+【 AKAME BOT 】`
 }
 
 exports.help = help
