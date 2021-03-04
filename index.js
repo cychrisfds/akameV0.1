@@ -289,22 +289,22 @@ async function starts() {
 				only: {
 					group: '[❗] Este comando só pode ser usado em grupos! ❌',
 					premium: '[❗] ESTE PEDIDO É SO PARA *USUÁRIOS PREMIUMS*',
-					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD NABUTO BOT*',
+					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD DA AKAME BOT*',
 					benned: 'Você para a banda, por favor, contate o proprietário para abrir sua banda',
-					ownerG: '[❗] Proprietário? Este é um recurso especial para o proprietário do bot ❌',
-					ownerB: '[❗] Proprietário? Este é um recurso especial para o proprietário do bot ❌',
-					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado como amigo de nabuto. Registre-se para fazer amizade com o bot Nabuto por meio, \n\nCommand : ${prefix}daftar nama|idade\nExemplo : ${prefix}daftar nabuto|14\n\n──「 Nabuto BOT 」──`,
+					ownerG: '[❗] Proprietário? Este é um recurso especial para o proprietário da bot ❌',
+					ownerB: '[❗] Proprietário? Este é um recurso especial para o proprietário da bot ❌',
+					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado como amigo da akame. Registre-se para fazer amizade com a akame por meio, \n\nCommand : ${prefix}daftar nama|idade\nExemplo : ${prefix}daftar chris|13\n\n──「 Akame BOT 」──`,
 					admin: '[❗] Este comando só pode ser usado por administradores de grupo! ❌',
 					Badmin: ' [❗] Este comando só pode ser usado quando o bot se torna administrador! ❌',
 				}
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["556993733829@s.whatsapp.net"] // replace this with your number
-			const mod = [ownerNumber,"556993733829@s.whatsapp.net"]//ubah nomor lo
-			const adminbotnumber = ["556993733829@s.whatsapp.net"]//ubah nomor lo
-			const frendsowner = ["556993733829@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["556993733829@s.whatsapp.net","559784130980@s.whatsapp.net","557599941062@s.whatsapp.net","558598669655@s.whatsapp.net","5511949051934@s.whatsapp.net","554792091566@s.whatsapp.net","558699541889@s.whatsapp.net","559294313229@s.whatsapp.net","554298653614@s.whatsapp.net"]
+			const ownerNumber = ["5581996207906@s.whatsapp.net"] // replace this with your number
+			const mod = [ownerNumber,"5581996207906@s.whatsapp.net"]//ubah nomor lo
+			const adminbotnumber = ["5581996207906@s.whatsapp.net"]//ubah nomor lo
+			const frendsowner = ["5581996207906@s.whatsapp.net"]//ubah nomor lo
+			const premium = ["5581996207906@s.whatsapp.net","5581996207906@s.whatsapp.net","5581996207906@s.whatsapp.net","5581996207906@s.whatsapp.net","5581996207906@s.whatsapp.net","5581996207906@s.whatsapp.net","5581996207906@s.whatsapp.net","5581996207906@s.whatsapp.net","5581996207906@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -364,7 +364,7 @@ async function starts() {
 if (text.includes("ip"))
   { const aris = text.replace(/!ip /, "") 
   axios.get(`https://mnazria.herokuapp.com/api/check?ip=${aris}`).then((res) =>{ 
-  let hasil = ` *🔍CONSULTA REALIZADA🔍* \n\n ➸ *CIDADE:*  ${res.data.city}\n ➸ *Latitude* : ${res.data.latitude}\n ➸ *Longtitude* : ${res.data.longitude}\n ➸ *REGIÃO* : ${res.data.region_name}\n ➸ *UF* : ${res.data.region_code}\n ➸ *IP* : ${res.data.ip}\n ➸ *TIPO* : ${res.data.type}\n ➸ *CEP* : ${res.data.zip}\n ➸ *LOCALIDADE* : ${res.data.location.geoname_id}\n ➸ *CAPITAL* : ${res.data.location.capital}\n ➸ *DDD* : ${res.data.location.calling_code}\n ➸ *PAÍS* : ${res.data.location.country_flag_emoji}\n *📌BY:May Bot*` 
+  let hasil = ` *🔍CONSULTA REALIZADA🔍* \n\n ➸ *CIDADE:*  ${res.data.city}\n ➸ *Latitude* : ${res.data.latitude}\n ➸ *Longtitude* : ${res.data.longitude}\n ➸ *REGIÃO* : ${res.data.region_name}\n ➸ *UF* : ${res.data.region_code}\n ➸ *IP* : ${res.data.ip}\n ➸ *TIPO* : ${res.data.type}\n ➸ *CEP* : ${res.data.zip}\n ➸ *LOCALIDADE* : ${res.data.location.geoname_id}\n ➸ *CAPITAL* : ${res.data.location.capital}\n ➸ *DDD* : ${res.data.location.calling_code}\n ➸ *PAÍS* : ${res.data.location.country_flag_emoji}\n *📌BY:akame Bot*` 
   conn.sendMessage(id, hasil, MessageType.text); 
  })
  }
@@ -385,7 +385,7 @@ if (text.includes("cnpj")){
 const aris = text.replace(/!cnpj /, "")
 axios.get(`https://www.receitaws.com.br/v1/cnpj/${aris}`).then((res) => {
 	conn.sendMessage(id, '[❗] ESPERE ESTOU BUSCANDO DADOS', MessageType.text)
-         let cep = `*🔍CONSULTA REALIZADA🔍* \n\n ➸ *ATIVIDADE PRINCIPAL:* ${res.data.atividade_principal[0].text} \n\n ➸ *DATA SITUAÇÃO:* ${res.data.data_situacao}\n\n ➸ *TIPO:* ${res.data.tipo} \n\n ➸ *NOME:* ${res.data.nome} \n\n ➸ *UF:* ${res.data.uf} \n\n ➸ *TELEFONE:* ${res.data.telefone}\n\n ➸ *SITUAÇÃO:* ${res.data.situacao} \n\n ➸ *BAIRRO:* ${res.data.bairro} \n\n ➸ *RUA:* ${res.data.logradouro} \n\n ➸ *NÚMERO :* ${res.data.numero} \n\n ➸ *CEP :* ${res.data.cep} \n\n ➸ *MUNICÍPIO:* ${res.data.municipio} \n\n ➸ *PORTE:* ${res.data.porte}\n\n ➸ *ABERTURA:* ${res.data.abertura}\n\n ➸ *NATUREZA JURÍDICA:* ${res.data.natureza_juridica} \n\n ➸ *FANTASIA:* ${res.data.fantasia}\n\n ➸ *CNPJ:* ${res.data.cnpj}\n\n ➸ *ÚLTIMA ATUALIZAÇÃO:* ${res.data.ultima_atualizacao}\n\n ➸ *STATUS:* ${res.data.status}\n\n ➸ *COMPLEMENTO:* ${res.data.complemento}\n\n ➸ *EMAIL:* ${res.data.email}\n\n *📌BY:May Bot* `;
+         let cep = `*🔍CONSULTA REALIZADA🔍* \n\n ➸ *ATIVIDADE PRINCIPAL:* ${res.data.atividade_principal[0].text} \n\n ➸ *DATA SITUAÇÃO:* ${res.data.data_situacao}\n\n ➸ *TIPO:* ${res.data.tipo} \n\n ➸ *NOME:* ${res.data.nome} \n\n ➸ *UF:* ${res.data.uf} \n\n ➸ *TELEFONE:* ${res.data.telefone}\n\n ➸ *SITUAÇÃO:* ${res.data.situacao} \n\n ➸ *BAIRRO:* ${res.data.bairro} \n\n ➸ *RUA:* ${res.data.logradouro} \n\n ➸ *NÚMERO :* ${res.data.numero} \n\n ➸ *CEP :* ${res.data.cep} \n\n ➸ *MUNICÍPIO:* ${res.data.municipio} \n\n ➸ *PORTE:* ${res.data.porte}\n\n ➸ *ABERTURA:* ${res.data.abertura}\n\n ➸ *NATUREZA JURÍDICA:* ${res.data.natureza_juridica} \n\n ➸ *FANTASIA:* ${res.data.fantasia}\n\n ➸ *CNPJ:* ${res.data.cnpj}\n\n ➸ *ÚLTIMA ATUALIZAÇÃO:* ${res.data.ultima_atualizacao}\n\n ➸ *STATUS:* ${res.data.status}\n\n ➸ *COMPLEMENTO:* ${res.data.complemento}\n\n ➸ *EMAIL:* ${res.data.email}\n\n *📌BY:akame Bot* `;
     conn.sendMessage(id, cep ,MessageType.text);
 }) 
 }
