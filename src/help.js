@@ -1,25 +1,22 @@
 const help = (prefix) => {
 	return `
-
-AKAME BOT
+🍧⚡𝐀𝐊𝐀𝐌𝐄|𝐁𝐎𝐓✨
 𝗜𝗡𝗙𝗢𝗦:
 
- *A BOT SE ENCONTRA: ON-LINE*
+ *A BOT SE ENCONTRA:EM PARIS*
  ▬▬▬▬▬▬▬【☪】▬▬▬▬▬▬▬
- *DONO*: cychris⚡
+ *DONO*: ৡৢ͜͡𝐀𝐌||𝐂𝐲~𝑪𝑯𝑹𝑰𝑺 $
+ *WHATSAPP*: wa.me//5581996207906
+*VERCAO*: 1.5
  ▬▬▬▬▬▬▬【☪】▬▬▬▬▬▬▬
  *PREFIXO*:[ / ] [ ! ]
  ▬▬▬▬▬▬▬【☪】▬▬▬▬▬▬▬
- *WHATSAPP*: wa.me//5581996207906
+ *WHATSAPP*: wa.me//558185982721
+ *Insta do dono*: https://instagram.com/cychris_fds.trash
+ *Insta da bot*: https://instagram.com/akame.suport
  ▬▬▬▬▬▬▬【☪】▬▬▬▬▬▬▬
- *Insta do dono*: 
- *Insta da bot*:
- ▬▬▬▬▬▬▬【☪】▬▬▬▬▬▬▬
 
-
-        𝗖𝗢𝗠𝗔𝗡𝗗𝗢𝗦 𝗔 𝗕𝗔𝗜𝗫𝗢:
-
-      𝗖𝗢𝗠𝗔𝗡𝗗𝗢𝗦:
+  𝗖𝗢𝗠𝗔𝗡𝗗𝗢𝗦😼👍
 
 ➢【𝗠𝗘𝗟𝗛𝗢𝗥𝗘𝗦】
 
@@ -33,7 +30,7 @@ AKAME BOT
 ➛ *${prefix}ping* [velocidade]
 ➛ *${prefix}owner ou dono* [info do criador]
 
-➢【𝗡𝗢𝗩𝗢𝗦】
+➢【𝗡𝗢𝗩𝗢𝗦】⭐
 
 ➛ *${prefix}animecry*
 ➛ *${prefix}chentai [premium]*
@@ -46,7 +43,7 @@ AKAME BOT
 ➛ *${prefix}spamcall*
 ➛ *${prefix}play (nome da msc)*
 
-➢【𝗣𝗔𝗥𝗔 𝗚𝗥𝗨𝗣𝗢𝗦】
+➢【𝗣𝗔𝗥𝗔 𝗚𝗥𝗨𝗣𝗢𝗦】👥
 
 ➛ *${prefix}closegc* [fechar grupo]
 ➛ *${prefix}opengc* [abrir grupo]
@@ -65,7 +62,7 @@ AKAME BOT
 ➛ *${prefix}porno* [porno]
 ➛ *${prefix}mia* [fotos da mia]
 
-➢【𝗜𝗡𝗧𝗘𝗥𝗔𝗚𝗜𝗥】
+➢【𝗜𝗡𝗧𝗘𝗥𝗔𝗚𝗜𝗥]😼
 ➛
 ➛ *${prefix}figu*
 ➛ *${prefix}toimg*
@@ -79,7 +76,7 @@ AKAME BOT
 ➛ *${prefix}wait [na legenda]*
 ➛ *${prefix}setprefix*
 ➛
-➢【𝗢𝗨𝗧𝗥𝗢𝗦】
+➢【𝗢𝗨𝗧𝗥𝗢𝗦】⛓️
 ➛
 ➛ *${prefix}linkgp*
 ➛ *${prefix}simih [1/0]*
@@ -114,7 +111,7 @@ AKAME BOT
 ➛ *${prefix}marcar2*
 ➛ *${prefix}marcar3*
 ➛
-➢【 𝗜𝗠𝗔𝗚𝗘𝗡𝗦 】
+➢【𝗜𝗠𝗔𝗚𝗘𝗡𝗦】📷
 ➛
 ➛ *${prefix}loli* [off]
 ➛ *${prefix}loli1*
@@ -139,19 +136,19 @@ AKAME BOT
 ➛ *${prefix}nsfwloli1*
 ➛ *${prefix}reislin*
 ➛
-➢【 𝗜𝗡𝗧𝗘𝗟𝗜𝗚𝗘̂𝗡𝗖𝗜𝗔 𝗜𝗔 】
+➢【𝗜𝗡𝗧𝗘𝗟𝗜𝗚𝗘̂𝗡𝗖𝗜𝗔 𝗜𝗔】💾
 ➛
 ➛ *${prefix}simih 1 (para ativar)*
 ➛ *${prefix}simih 0 (para desativar)*
 ➛ *${prefix}simi (sua mensagem)*
 ➛
-➢【𝗘𝗠 𝗧𝗘𝗦𝗧𝗘】
+➢【𝗘𝗠 𝗧𝗘𝗦𝗧𝗘】🌐
 ➛
 ➛ *${prefix}*
 ➛ *${prefix}*
 ➛ *${prefix}*
 ➛
-➢【𝗣𝗥𝗘𝗠𝗜𝗨𝗠】
+➢【𝗣𝗥𝗘𝗠𝗜𝗨𝗠】⭐
 ➛
 ➛ *${prefix}dado*
 ➛ *${prefix}cekvip*
@@ -168,7 +165,7 @@ AKAME BOT
 ➛ *${prefix}destrava*
 ➛ *${prefix}gpessoa*
 
-➢【𝗚𝗥𝗨𝗣𝗢】
+➢【𝗚𝗥𝗨𝗣𝗢】👥
 ➛
 ➛ *${prefix}banir*
 ➛ *${prefix}leveling [on/off]*
@@ -190,7 +187,7 @@ AKAME BOT
 ➛ *${prefix}setdesc*
 ➛ *${prefix}bug [sua mensagem]*
 ➛
-➢【𝗘𝗦𝗣𝗘𝗖𝗜𝗙𝗜𝗖𝗢 𝗗𝗢 𝗕𝗢𝗧】𝗹
+➢【𝗘𝗦𝗣𝗘𝗖𝗜𝗙𝗜𝗖𝗢 𝗗𝗢 𝗕𝗢𝗧】😎💫
 ➛
 ➛ *${prefix}bug [sua mensagem]*
 ➛ *${prefix}clonar [@]*
@@ -205,7 +202,7 @@ AKAME BOT
 ➛ *${prefix}desligar (so para o dono)*
 ➛ *${prefix}timer*
 ➛
-➢【𝗠𝗔𝗜𝗦 𝗔𝗟𝗚𝗨𝗡𝗦】𝗹
+➢【𝗠𝗔𝗜𝗦 𝗔𝗟𝗚𝗨𝗡𝗦】😎💫
 ➛
 ➛ *${prefix}neko*
 ➛ *${prefix}ttp [texto]*
@@ -230,7 +227,7 @@ AKAME BOT
 ➛ *𝗡𝗢𝗠𝗘: akame
 ➛ *𝗪𝗣𝗣: wa.me//558185982721
 【 AKAME 】
-➢【 𝗖𝗢𝗠𝗔𝗡𝗗𝗢𝗦 𝗗𝗘 𝗠𝗨𝗦𝗜𝗖𝗔 】
+➢【𝗖𝗢𝗠𝗔𝗡𝗗𝗢𝗦 𝗗𝗘 𝗠𝗨𝗦𝗜𝗖𝗔】🎵
 
 ➛ *${prefix} em teste
 ➛ *${prefix}jogaroxo*
@@ -242,7 +239,7 @@ AKAME BOT
 ➛ *${prefix}paypal*
 ➛ *${prefix}sad*
 
-➢【 𝗢𝗨𝗧𝗥𝗢𝗦 /2 】
+➢【𝗢𝗨𝗧𝗥𝗢𝗦/2】😎💫
 
 *➛ *${prefix}antilink [1/0]*
 *➛ *${prefix}brainly [pergunta]*
@@ -250,7 +247,7 @@ AKAME BOT
 ➛ *${prefix}setnomebot*
 ➛ *${prefix}meme*
 
-➢【 𝗜𝗡𝗧𝗘𝗥𝗔𝗧𝗜𝗩𝗢𝗦 】
+➢【𝗜𝗡𝗧𝗘𝗥𝗔𝗧𝗜𝗩𝗢𝗦】
 
 NOTA »
 Mandar a msg sem o prefixo
@@ -260,15 +257,12 @@ Mandar a msg sem o prefixo
 ➛ *${prefix} *beat2*
 ➛ *${prefix} *hentaisom* (erro)
 
-➢【 𝗗𝗢𝗡𝗢 】
+➢【✓𝗗𝗢𝗡𝗢✓】
 
  *𝗡𝗢𝗠𝗘: chris
  *𝗪𝗣𝗣: wa.me//5581996207906
 
-
-
-
-【 AKAME BOT 】`
+      【 AKAME BOT 】`
 }
 
 exports.help = help
