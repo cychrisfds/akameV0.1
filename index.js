@@ -224,7 +224,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `𝙊𝙡𝙖́ ◤◢ @${num.split('@')[0]} ◤◢◣\n𝘽𝙚𝙢 𝙫𝙞𝙣𝙙𝙤 𝙖𝙤 𝙜𝙧𝙪𝙥𝙤:n/━━━━❰･ *${mdata.subject}* ･❱━━━━\n\n𝙋𝙤𝙧 𝙛𝙖𝙫𝙤𝙧 𝙡𝙚𝙞𝙖 𝙖𝙨 𝙧𝙚𝙜𝙧𝙖𝙨\n E 𝙨𝙚𝙟𝙖 𝙛𝙚𝙡𝙞𝙯 𝙣𝙤 𝙜𝙧𝙪𝙥𝙤🤗️`
+				teks = `𝙊𝙡𝙖́ ◤◢ @${num.split('@')[0]} ◤◢◣\n𝘽𝙚𝙢 𝙫𝙞𝙣𝙙𝙤 𝙖𝙤 𝙜𝙧𝙪𝙥𝙤:n/━━━━❰･ *${mdata.subject}* ･❱━━━━\n\n𝙋𝙤𝙧 𝙛𝙖𝙫𝙤𝙧 𝙡𝙚𝙞𝙖 𝙖𝙨 𝙧𝙚𝙜𝙧𝙖𝙨\n E 𝙛𝙙𝙨 𝙨𝙚 𝙘𝙪𝙞𝙙𝙖 𝙗𝙧𝙤😼👍`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 				client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
@@ -235,7 +235,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `𝙁𝙡𝙬 @${num.split('@')[0]} 😎✋`
+				teks = `𝙁𝙡𝙬 𝙜𝙝𝙤𝙨𝙩 𝙨𝙖𝙛𝙖𝙙𝙤 @${num.split('@')[0]} 😎✋`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -855,31 +855,24 @@ if (text.includes("placa"))
 					reply(anu.result.hasil)
 					break
                    case 'modapk':
-                    if (!isPremium) return reply(mess.only.premium)
                     client.sendMessage(from, modapk(prefix), text, { quoted: mek })
                     break
                    case 'gbin':
-                    if (!isPremium) return reply(mess.only.premium)
                     client.sendMessage(from, gbin(prefix), text, { quoted: mek })
                     break
                    case 'gpessoa':
-                    if (!isPremium) return reply(mess.only.premium)
                     client.sendMessage(from, gpessoa(prefix), text, { quoted: mek })
                     break
                    case 'destrava':
-                    if (!isPremium) return reply(mess.only.premium)
                     client.sendMessage(from, destrava(prefix), text, { quoted: mek })
                     break
                    case 'pack':
-                    if (!isPremium) return reply(mess.only.premium)
                     client.sendMessage(from, pack(prefix), text, { quoted: mek })
                     break
                    case 'chentai':
-                    if (!isPremium) return reply(mess.only.premium)
                     client.sendMessage(from, chentai(prefix), text, { quoted: mek })
                     break
                    case 'gcpf':
-                    if (!isPremium) return reply(mess.only.premium)
                     client.sendMessage(from, gcpf(prefix), text, { quoted: mek })
                     break
 				case 'ytmp4':
@@ -897,7 +890,6 @@ if (text.includes("placa"))
 			client.sendPtt(from, './lindy/iri.mp3', {quoted: mek, ptt:true})
 			break
 				case 'ytmp3':
-			    	if (!isPremium) return reply(mess.only.premium)
                    reply(mess.wait)
 					if (args.length < 1) return reply('Cadê o url, hum?')
 					if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
