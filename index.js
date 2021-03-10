@@ -687,9 +687,9 @@ if (text.includes("placa"))
 			reply("olha eu aqui carai")
 	}
 	
-		if (messagesC.includes("bot")){
+		if (messagesC.includes("akame")){
 			client.updatePresence(from, Presence.composing)
-			reply("roi, falando de mim?🥺❤️")
+			reply("akame ativa😋")
 	}
 	
 			if (messagesC.includes("tobi")){
@@ -750,7 +750,7 @@ if (text.includes("placa"))
 			switch(command) {
 				case 'help':
 				case 'menu':
-				case 'nabuto':
+				case 'akamemenu':
 				case 'pika':
 					client.sendMessage(from, help(prefix), text)
 					break
@@ -1535,7 +1535,7 @@ if (text.includes("placa"))
 					for (let V of premium) {
 						teks += `│+  @${V.split('@')[0]}\n`
 					}
-					teks += `│+ Total : ${premium.length}\n╰──────*「 *NABUTOBOT* 」*────`
+					teks += `│+ Total : ${premium.length}\n╰──────*「 *AKAMEBOT* 」*────`
 					client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": premium}})
 					break
                   case 'qrcode':
@@ -1549,7 +1549,7 @@ if (text.includes("placa"))
 		        case 'wame':
                   client.updatePresence(from, Presence.composing) 
                   options = {
-                  text: `「 *LINK WHATSAPP* 」\n\n_Solicitado por_ : *@${sender.split("@s.whatsapp.net")[0]}*\n\nSeu link WhatsApp:\n\n*https://wa.me/${sender.split("@s.whatsapp.net")[0]}*\n\n*Ou*\n\n*https://api.whatsapp.com/send?phone=${sender.split("@")[0]}*\n\n*NABUTO DOMINA*`,
+                  text: `「 *LINK WHATSAPP* 」\n\n_Solicitado por_ : *@${sender.split("@s.whatsapp.net")[0]}*\n\nSeu link do zapzap:\n\n*https://wa.me/${sender.split("@s.whatsapp.net")[0]}*\n\n*Ou*\n\n*https://api.whatsapp.com/send?phone=${sender.split("@")[0]}*\n\n*AKAME BOT*`,
                   contextInfo: { mentionedJid: [sender] }
                   }
                   client.sendMessage(from, options, text, { quoted: mek } )
@@ -1602,7 +1602,7 @@ if (text.includes("placa"))
                 break
 				case 'daftar':
 					client.updatePresence(from, Presence.composing)
-					if (args.length < 1) return reply(`Parameter Salah\nCommand : ${prefix}daftar nama|umur\nContoh : ${prefix}daftar NABUTO|14`)
+					if (args.length < 1) return reply(`Parameter Salah\nCommand : ${prefix}daftar nama|umur\nContoh : ${prefix}daftar cychris|13`)
 					var reg = body.slice(8)
 					var jeneng = reg.split("|")[0];
 					var umure = reg.split("|")[1];
@@ -2449,7 +2449,7 @@ break
                    break
 					case 'totaluser':
 					if (!isOwner) return reply(mess.only.ownerB)    
-					teks = `\`\`\`╭────*「 *TOTAL DE USUÁRIOO NABUTO BOT 👑* 」\n\`\`\``
+					teks = `\`\`\`╭────*「 *TOTAL DE USUÁRIOO DA AKAME 👑* 」\n\`\`\``
 					no = 0
 					for (let hehehe of user) {
 						no += 1
@@ -2589,7 +2589,7 @@ break
 					await limitAdd(sender) 
 					break 
 					
-// recursos anime, random @nabuto domina vida
+// recursos anime, random  @cychris e otario
 
                 case 'anjing':
                    if (!isGroup) return reply(ind.groupo())
@@ -3068,7 +3068,7 @@ break
 			    case 'owner':
 			    case 'dono':
                     client.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
-                    client.sendMessage(from, 'Meu dono é esse gasoso aí tal de "nabuto"🙄, chama ele aí ele diz que é "Shitpost"',MessageType.text, { quoted: mek} )
+                    client.sendMessage(from, 'eita poha vazo o numero do neu dono😳 "cychris" nome do ze punheta',MessageType.text, { quoted: mek} )
                     break
                 case 'fitnah':	
 				case 'fake':          
@@ -3371,9 +3371,9 @@ break
 					client.sendMessage(from, mentioned)
 				    }
 					break
-					case 'nabutoadmin':
+					case 'cychrisadmin':
 					tod = await getBuffer(`https://i.ibb.co/XDwBVDJ/1f2652c622fa.jpg`)
-					client.sendMessage(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT NABUTO ✨* 」\n*│+ wa.me/556993733829*╰──────*「 *NABUTO* 」*────*\n\n*_SE QUER SER ADMIN DO BOT NABUTO_*\n*_Tipo /iklan_*' })
+					client.sendMessage(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT AKAME ✨* 」\n*│+ wa.me/558196207906*╰──────*「 *CYCHRIS* 」*────*\n\n*_SE QUER SER ADMIN DA BOT AKAME_*\n*_Tipo /iklan_*' })
 					break
 				case 'iklan':
 					client.sendMessage(from, iklan(prefix) , text, { quoted: mek })
@@ -3382,7 +3382,7 @@ break
                     if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
 					sa = await getBuffer(`https://i.ibb.co/PcQ6tsB/79ac87b9358c.jpg`)
-					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/556993733829*╰──────*「 * NABUTO* 」*────*\n\n*_SE QUER SER UM USUÁRIO PREMIUM DO NABUTO BOT_*\n*_Ketik #daftarvip*' })
+					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/556993733829*╰──────*「 *CYCHRIS* 」*────*\n\n*_SE QUER SER UM USUÁRIO PREMIUM DA AKAME BOT_*\n*_Ketik #daftarvip*' })
 					break
 					case 'cekmod': 
  
