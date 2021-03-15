@@ -61,7 +61,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'ORG:Lexa;\n' // Nama bot
             + 'TEL;type=CELL;type=VOICE;waid=5581996207906:+55 8199620-7906\n' //Nomor whatsapp kamu
             + 'END:VCARD'
-prefix = '/','!','.'
+prefix = '!','/','/'
 blocked = []
 limitawal = '999999999'
 cr = '*akamebot*'
@@ -300,11 +300,11 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["5581996207906@s.whatsapp.net"] // replace this with your number
-			const mod = [ownerNumber,"5581996207906@s.whatsapp.net"]//ubah nomor lo
-			const adminbotnumber = ["5581996207906@s.whatsapp.net"]//ubah nomor lo
+			const ownerNumber = ["558196207906@s.whatsapp.net"] // replace this with your number
+			const mod = [ownerNumber,"558196207906@s.whatsapp.net"]//ubah nomor lo
+			const adminbotnumber = ["558196207906@s.whatsapp.net"]//ubah nomor lo
 			const frendsowner = ["5581996207906@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["5581996207906@s.whatsapp.net","5581996207906@s.whatsapp.net","5581996207906@s.whatsapp.net","5581996207906@s.whatsapp.net","5581996207906@s.whatsapp.net","5581996207906@s.whatsapp.net","5581996207906@s.whatsapp.net","5581996207906@s.whatsapp.net","5581996207906@s.whatsapp.net"]
+			const premium = ["558196207906@s.whatsapp.net","558196207906@s.whatsapp.net","558196207906@s.whatsapp.net","558196207906@s.whatsapp.net","558196207906@s.whatsapp.net","558196207906@s.whatsapp.net","558196207906@s.whatsapp.net","558196207906@s.whatsapp.net","558196207906@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
