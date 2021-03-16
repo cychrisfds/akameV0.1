@@ -15,7 +15,9 @@ const help = (prefix) => {
  *Insta do dono*: https://instagram.com/cychris_fds.trash
  *Insta da bot*: https://instagram.com/akame.suport
  ▬▬▬▬▬▬▬【☪】▬▬▬▬▬▬▬
+ 
 
+ ▬▬▬▬▬▬▬【☪】▬▬▬▬▬▬▬
   𝗖𝗢𝗠𝗔𝗡𝗗𝗢𝗦😼👍
 
 ➢【𝗠𝗘𝗟𝗛𝗢𝗥𝗘𝗦】
@@ -33,13 +35,13 @@ const help = (prefix) => {
 ➢【𝗡𝗢𝗩𝗢𝗦】⭐
 
 ➛ *${prefix}animecry*
-➛ *${prefix}chentai [premium]*
-➛ *${prefix}gcpf [premium]*
+➛ *${prefix}chentai*
+➛ *${prefix}gcpf*
 ➛ *${prefix}gay [@]*
-➛ *${prefix}gbin [premium]*
-➛ *${prefix}pack [premium]*
-➛ *${prefix}destrava [premium]*
-➛ *${prefix}gpessoa [premium]*
+➛ *${prefix}gbin*
+➛ *${prefix}pack*
+➛ *${prefix}destrava*
+➛ *${prefix}gpessoa*
 ➛ *${prefix}spamcall*
 ➛ *${prefix}play (nome da msc)*
 
