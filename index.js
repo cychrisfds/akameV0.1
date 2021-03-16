@@ -3409,13 +3409,7 @@ break
 				    if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
 					memein = await kagApi.memeindo()
-					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdU0UmT8RigE3Hbr80gmigjb2AdnPJklcQ3A&usqp=CAU`)
 					buffer = await getBuffer(`https://fotosdemulheresnuas.net/wp-content/uploads/2018/11/novinha-petuda-fotos-4.jpg`)
-					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqWoYHFA_SDgUip6MtvimWRdub_lshAn5Edg&usqp=CAU`)
-					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwvLmbqW9LeOCpXiGxgu3By4eQEmJM2Xp26Q&usqp=CAU`)
-					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcnhmpQD1C1Dp7I2_kpi13gAsuoudOPPraog&usqp=CAU`)
-					buffer = await getBuffer(`https://fotosdemulheresnuas.net/wp-content/uploads/2018/12/prima-novinha-pelada-6.jpg`)
-					buffer = await getBuffer(`https://fotosdemulheresnuas.net/wp-content/uploads/2018/12/Mia-Khalifa-fotos-5.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'comia facin'})
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'papai'})
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'opa, vou no banheiro tomar meu banho'})
@@ -3427,13 +3421,6 @@ break
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'totosa'})
 					buffer = await getBuffer(`https://fotosdemulheresnuas.net/wp-content/uploads/2018/12/Mia-Khalifa-fotos-10.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'gasosa'})
-					buffer = await getBuffer(`https://fotosdemulheresnuas.net/wp-content/uploads/2018/12/Mia-Khalifa-fotos-16.jpg`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'garai ksksks'})
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ta olhando de mais'})
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'vai bater uma logo fdp kkkkkkk'})
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'gasosa'})
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'k'})
-					break
 				case 'belle2':
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://i.pinimg.com/originals/24/5f/91/245f91208f9030724dbc8d1bede2e9ff.gif`)
@@ -3442,7 +3429,7 @@ break
 				case 'bot':
 			     	memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://i.imgur.com/dPUVFF6.png`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*_Comandos basicos para bot:_*\n\n*pkg upgrade && pkg update*\n*pkg install git*\n*git clone (link da git)*\n*cd (repositório)*\n*bash install.sh*\n*npm start*\n\n*Nabuto Domina*'})
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*_Comandos basicos para bot:_*\n\n*pkg upgrade && pkg update*\n*pkg install git*\n*git clone (link da git)*\n*cd (repositório)*\n*bash install.sh*\n*npm start*\n\n*akame Domina*'})
 					break
 				case 'belle3':
 					memein = await kagApi.memeindo()
@@ -3466,18 +3453,23 @@ break
 					break
 				case 'bomdia':
 					memein = await kagApi.memeindo()
-					buffer = await getBuffer(`https://i.imgur.com/7VL9cFf.jpg`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Bom dia, vcs sao fodas ❤️'})
+					buffer = await getBuffer(`https://ibb.co/jwKSx6W`)
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Bom dia glr'})
 					break
 				case 'boatarde':
 					memein = await kagApi.memeindo()
-					buffer = await getBuffer(`https://i.imgur.com/JaO3yoV.jpg`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Boa tarde, rapeize 😎👍'})
+					buffer = await getBuffer(`https://ibb.co/1JQshM1`)
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Boa tarde, bo lacha slk'})
 					break
 				case 'boanoite':
 					memein = await kagApi.memeindo()
-					buffer = await getBuffer(`https://i.imgur.com/yOFxSUR.jpg`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Boa noite fml ❤️'})
+					buffer = await getBuffer(`https://ibb.co/J3b3NRg`)
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Boa noite, seus dlc'})
+					break
+					case 'flamengo':
+					memein = await kagApi.memeindo()
+					buffer = await getBuffer(`https://ibb.co/55xqpg1`)
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: '👀️'})
 					break
                 case 'belle':                 
 				 data = fs.readFileSync('./src/belle.js');
@@ -3492,6 +3484,11 @@ break
 					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ7ot6RZPnXSJFFKVjPoeXHjTYyi6uk5W_mA&usqp=CAU`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: '👀️'})
 					break
+					case 'crhis':
+                                        memein = await kagApi.memeindo()
+                                        buffer = await getBuffer(`https://i.pinimg.com/originals/85/03/21/850321a4edc9797570ed1091fa62fac9.jpg`)
+                                       client.sendMessage(from, buffer, image, {quoted: mek, caption: '*NOME*: CYchris /n *CONTATO*: wa.me//5581996207906 /n amimir😴'})
+                                             break 
 				case 'lofi':
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL9hZBPRo16fIhsIus3t1je2oAU23pQqBpfw&usqp=CAU`)
@@ -3502,10 +3499,10 @@ break
 					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtbo5EcVSGj-IvEVznHIgMZ9vjFptZfvprtg&usqp=CAU`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: '️💆'})
 					break
-				case 'canal':
+				case 'insta':
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://imgur.com/gallery/xuTCBPO`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: '️*canal do nabuto:*\n\n https://youtube.com/channel/UCZEtf9AlsC2zsJQwrfW-44w'})
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: '️*insta do chris:*\n\n https://www.instagram.com/cychris.exe'})
 					break
 				case 'nsfwloli1':
 					memein = await kagApi.memeindo()
