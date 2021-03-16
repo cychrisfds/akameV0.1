@@ -1,9 +1,10 @@
 const help = (prefix) => {
 	return `
-🍧⚡𝐀𝐊𝐀𝐌𝐄|𝐁𝐎𝐓✨
-𝗜𝗡𝗙𝗢𝗦:
 
- *A BOT SE ENCONTRA:EM PARIS*
+
+🍧⚡𝐀𝐊𝐀𝐌𝐄|𝐁𝐎𝐓✨
+       𝗜𝗡𝗙𝗢𝗦
+ *A BOT SE ENCONTRA: EM DUBAI*
  ▬▬▬▬▬▬▬【☪】▬▬▬▬▬▬▬
  *DONO*: ৡৢ͜͡𝐀𝐌||𝐂𝐲~𝑪𝑯𝑹𝑰𝑺 $
  *WHATSAPP*: wa.me//5581996207906
@@ -12,11 +13,10 @@ const help = (prefix) => {
  *PREFIXO*:[ / ] [ ! ]
  ▬▬▬▬▬▬▬【☪】▬▬▬▬▬▬▬
  *WHATSAPP*: wa.me//558185982721
- *Insta do dono*: https://instagram.com/cychris_fds.trash
- *Insta da bot*: https://instagram.com/akame.suport
- ▬▬▬▬▬▬▬【☪】▬▬▬▬▬▬▬
- 
 
+ *Insta do dono*: https://instagram.com/cychris.exe
+ *Insta da bot*: https://instagram.com/akame.suport
+ 
  ▬▬▬▬▬▬▬【☪】▬▬▬▬▬▬▬
   𝗖𝗢𝗠𝗔𝗡𝗗𝗢𝗦😼👍
 
