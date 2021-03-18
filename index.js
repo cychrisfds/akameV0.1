@@ -448,14 +448,6 @@ if (text.includes("placa"))
 		setTimeout( () => {
 			client.updatePresence(from, Presence.composing)
 			reply("3 segundos")
-		}, 2000)
-		setTimeout( () => {
-			client.updatePresence(from, Presence.composing)
-			reply("4 segundos")
-		}, 1000)
-		setTimeout( () => {
-			client.updatePresence(from, Presence.composing)
-			reply("5 segundos, flw mn✋")
 		}, 0)
 	}
 	
@@ -481,14 +473,6 @@ if (text.includes("placa"))
 		setTimeout( () => {
 			client.updatePresence(from, Presence.composing)
 			reply("3 segundos")
-		}, 2000)
-		setTimeout( () => {
-			client.updatePresence(from, Presence.composing)
-			reply("4 segundos")
-		}, 1000)
-		setTimeout( () => {
-			client.updatePresence(from, Presence.composing)
-			reply("5 segundo flw mn")
 		}, 0)
 	}
 	
@@ -514,14 +498,6 @@ if (text.includes("placa"))
 		setTimeout( () => {
 			client.updatePresence(from, Presence.composing)
 			reply("3 segundos")
-		}, 2000)
-		setTimeout( () => {
-			client.updatePresence(from, Presence.composing)
-			reply("4 segundos")
-		}, 1000)
-		setTimeout( () => {
-			client.updatePresence(from, Presence.composing)
-			reply("5 segundo KKKKKKKK tchau otário 😔🤙")
 		}, 0)
 	}
 	
@@ -547,14 +523,6 @@ if (text.includes("placa"))
 		setTimeout( () => {
 			client.updatePresence(from, Presence.composing)
 			reply("3 segundos")
-		}, 2000)
-		setTimeout( () => {
-			client.updatePresence(from, Presence.composing)
-			reply("4 segundos")
-		}, 1000)
-		setTimeout( () => {
-			client.updatePresence(from, Presence.composing)
-			reply("5 segundo KKKKKKKK tchau otário 😔🤙")
 		}, 0)
 	}
 	
@@ -580,14 +548,6 @@ if (text.includes("placa"))
 		setTimeout( () => {
 			client.updatePresence(from, Presence.composing)
 			reply("3 segundos")
-		}, 2000)
-		setTimeout( () => {
-			client.updatePresence(from, Presence.composing)
-			reply("4 segundos")
-		}, 1000)
-		setTimeout( () => {
-			client.updatePresence(from, Presence.composing)
-			reply("5 segundo KKKKKKKK tchau otário 😔🤙")
 		}, 0)
 	}
 	
@@ -613,14 +573,6 @@ if (text.includes("placa"))
 		setTimeout( () => {
 			client.updatePresence(from, Presence.composing)
 			reply("3 segundos")
-		}, 2000)
-		setTimeout( () => {
-			client.updatePresence(from, Presence.composing)
-			reply("4 segundos")
-		}, 1000)
-		setTimeout( () => {
-			client.updatePresence(from, Presence.composing)
-			reply("5 segundo KKKKKKKK tchau otário 😔🤙")
 		}, 0)
 	}
 	
@@ -646,14 +598,6 @@ if (text.includes("placa"))
 		setTimeout( () => {
 			client.updatePresence(from, Presence.composing)
 			reply("3 segundos")
-		}, 2000)
-		setTimeout( () => {
-			client.updatePresence(from, Presence.composing)
-			reply("4 segundos")
-		}, 1000)
-		setTimeout( () => {
-			client.updatePresence(from, Presence.composing)
-			reply("5 segundo KKKKKKKK tchau otário 😔🤙")
 		}, 0)
 	}
 	
@@ -751,7 +695,7 @@ if (text.includes("placa"))
 				case 'help':
 				case 'menu':
 				case 'akamemenu':
-				case 'pika':
+				case 'akamegay':
 					client.sendMessage(from, help(prefix), text)
 					break
 				case 'help1':
