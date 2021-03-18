@@ -3410,17 +3410,12 @@ break
 					if (!isGroupAdmins) return reply(mess.only.admin)
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://fotosdemulheresnuas.net/wp-content/uploads/2018/11/novinha-petuda-fotos-4.jpg`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'comia facin'})
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'papai'})
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'opa, vou no banheiro tomar meu banho'})
 					buffer = await getBuffer(`https://fotosdemulheresnuas.net/wp-content/uploads/2018/12/Mia-Khalifa-fotos-6.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: '🥴'})
 					buffer = await getBuffer(`https://fotosdemulheresnuas.net/wp-content/uploads/2018/12/Mia-Khalifa-fotos-7.jpg`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: '😏'})
-					buffer = await getBuffer(`https://fotosdemulheresnuas.net/wp-content/uploads/2018/12/Mia-Khalifa-fotos-8.jpg`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'totosa'})
-					buffer = await getBuffer(`https://fotosdemulheresnuas.net/wp-content/uploads/2018/12/Mia-Khalifa-fotos-10.jpg`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'gasosa'})
+					break
 				case 'belle2':
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://i.pinimg.com/originals/24/5f/91/245f91208f9030724dbc8d1bede2e9ff.gif`)
@@ -3484,10 +3479,10 @@ break
 					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ7ot6RZPnXSJFFKVjPoeXHjTYyi6uk5W_mA&usqp=CAU`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: '👀️'})
 					break
-					case 'crhis':
+					case 'chris':
                                         memein = await kagApi.memeindo()
                                         buffer = await getBuffer(`https://i.pinimg.com/originals/85/03/21/850321a4edc9797570ed1091fa62fac9.jpg`)
-                                       client.sendMessage(from, buffer, image, {quoted: mek, caption: '*NOME*: CYchris /n *CONTATO*: wa.me//5581996207906 /n amimir😴'})
+                                       client.sendMessage(from, buffer, image, {quoted: mek, caption: '*NOME*: Cychris /n *CONTATO*: wa.me//5581996207906 /n amimir😴'})
                                              break 
 				case 'lofi':
 					memein = await kagApi.memeindo()
