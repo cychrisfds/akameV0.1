@@ -5,10 +5,10 @@ const help = (prefix) => {
  ▬▬▬▬▬▬▬【☪】▬▬▬▬▬▬▬
  *DONO*: ৡৢ͜͡𝐀𝐌||𝐂𝐲~𝑪𝑯𝑹𝑰𝑺 $
  *WHATSAPP*: wa.me//5581996207906
- *VERÇAO*: 1.5 BETA
+ *VERÇAO*: 1.6 BETA
  *${prefix}chris*
  ▬▬▬▬▬▬▬【☪】▬▬▬▬▬▬▬
- *PREFIXO*:[/] [!]
+ *PREFIXO*:[!]
  ▬▬▬▬▬▬▬【☪】▬▬▬▬▬▬▬
 *WHATSAPP DA BOT*: wa.me//558185982721
 *INSTA DO DONO*: https://instagram.com/cychris.exe
@@ -33,6 +33,7 @@ const help = (prefix) => {
 
 ➛ *${prefix}animecry*
 ➛ *${prefix}chentai*
+➛ *${prefix}antikpop*
 ➛ *${prefix}gcpf*
 ➛ *${prefix}gay [@]*
 ➛ *${prefix}gbin*
@@ -223,14 +224,12 @@ const help = (prefix) => {
 ➛ *${prefix}belle [img aleatórias]*
 ➛ *${prefix}pronomeneu [texto]*
 ➛ *${prefix}hobby*
-➛ *𝗡𝗢𝗠𝗘: akame
-➛ *𝗪𝗣𝗣: wa.me//558185982721
-【 AKAME 】
+
 ➢【𝗖𝗢𝗠𝗔𝗡𝗗𝗢𝗦 𝗗𝗘 𝗠𝗨𝗦𝗜𝗖𝗔】🎵
 
 ➛ *${prefix} em teste
 ➛ *${prefix}jogaroxo*
-➛ *${prefix} em teste
+➛ *${prefix}antikpop*
 ➛ *${prefix} em teste
 ➛ *${prefix}narutinho*
 ➛ *${prefix}}tobi*
@@ -257,9 +256,13 @@ Mandar a msg sem o prefixo
 ➛ *${prefix} *hentaisom* (erro)
 
 ➢【✓𝗗𝗢𝗡𝗢✓】
-
- *𝗡𝗢𝗠𝗘: chris
- *𝗪𝗣𝗣: wa.me//5581996207906
+*DONO*: ৡৢ͜͡𝐀𝐌||𝐂𝐲~𝑪𝑯𝑹𝑰𝑺 $
+ *WHATSAPP*: wa.me//5581996207906
+  *VERÇAO*: 1.6 BETA
+   *${prefix}chris*
+    *${prefix}dono*
+   *𝗡𝗢𝗠𝗘: akame
+  *𝗪𝗣𝗣: wa.me//558185982721
 
       【 AKAME BOT 】`
 }
