@@ -483,7 +483,7 @@ if (text.includes("placa"))
 		client.updatePresence(from, Presence.composing)
 		if (messagesC.includes("#izinadmin")) return reply("#izinadmin diterima")
 		var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-		reply(`tchau racista ${sender.split("@")[0]} voce sera expulso deste grupo em 5 segundos`)
+		reply(`tchau racista ${sender.split("@")[0]} voce sera expulso deste grupo em 3 segundos`)
 		setTimeout( () => {
 			client.groupRemove(from, [kic]).catch((e)=>{reply(`*ERR:* ${e}`)})
 		}, 5000)
@@ -508,7 +508,7 @@ if (text.includes("placa"))
 		client.updatePresence(from, Presence.composing)
 		if (messagesC.includes("#izinadmin")) return reply("#izinadmin diterima")
 		var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-		reply(`tchau racista ${sender.split("@")[0]} voce sera expulso deste grupo em 5 segundos`)
+		reply(`tchau racista ${sender.split("@")[0]} voce sera expulso deste grupo em 3 segundos`)
 		setTimeout( () => {
 			client.groupRemove(from, [kic]).catch((e)=>{reply(`*ERR:* ${e}`)})
 		}, 5000)
@@ -533,7 +533,7 @@ if (text.includes("placa"))
 		client.updatePresence(from, Presence.composing)
 		if (messagesC.includes("#izinadmin")) return reply("#izinadmin diterima")
 		var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-		reply(`tchau racista ${sender.split("@")[0]} voce sera expulso deste grupo em 5 segundos`)
+		reply(`tchau racista ${sender.split("@")[0]} voce sera expulso deste grupo em 3 segundos`)
 		setTimeout( () => {
 			client.groupRemove(from, [kic]).catch((e)=>{reply(`*ERR:* ${e}`)})
 		}, 5000)
@@ -558,7 +558,7 @@ if (text.includes("placa"))
 		client.updatePresence(from, Presence.composing)
 		if (messagesC.includes("#izinadmin")) return reply("#izinadmin diterima")
 		var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-		reply(`link detectado ${sender.split("@")[0]} voce sera expulso deste grupo em 5 segundos`)
+		reply(`link detectado ${sender.split("@")[0]} voce sera expulso deste grupo em 3 segundos`)
 		setTimeout( () => {
 			client.groupRemove(from, [kic]).catch((e)=>{reply(`*ERR:* ${e}`)})
 		}, 5000)
@@ -583,7 +583,7 @@ if (text.includes("placa"))
 		client.updatePresence(from, Presence.composing)
 		if (messagesC.includes("#izinadmin")) return reply("#izinadmin diterima")
 		var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-		reply(`link detectado ${sender.split("@")[0]} voce sera expulso deste grupo em 5 segundos`)
+		reply(`link detectado ${sender.split("@")[0]} voce sera expulso deste grupo em 3 segundos`)
 		setTimeout( () => {
 			client.groupRemove(from, [kic]).catch((e)=>{reply(`*ERR:* ${e}`)})
 		}, 5000)
@@ -1350,7 +1350,6 @@ if (text.includes("placa"))
 					client.sendMessage(from, buff, image, {quoted: mek})
 					break
 					case 'vipmenu':
-					if (!isPremium) return reply('Você não é um Membro Premium, entre em contato com o proprietário ou digite *#daftarvip* para comprar acesso Premium!' ,text, { quoted: mek })
 					client.sendMessage(from, vipmenu(prefix) , text, { quoted: mek })
 					break
 					case 'outros':
@@ -3241,7 +3240,6 @@ break
 					}
 					break
 					case 'dado':    
-					if (!isPremium) return reply('Você não é um Membro Premium, entre em contato com o proprietário ou digite *.Daftarvip* para adquirir o acesso Premium!' ,text, { quoted: mek })
 					
 					kapankah = body.slice(1)
 					const elu =['1','2','3','4','5','6']
@@ -3282,7 +3280,6 @@ break
                     await limitAdd(sender)
 					break	
 					case 'cekvip': 
-					if (!isPremium) return reply('Você não é um Membro Premium, entre em contato com o proprietário ou digite *.Daftarvip* para adquirir o acesso Premium!' ,text, { quoted: mek })
 					me = client.user
 					uptime = process.uptime()
 					client.sendMessage(from,  `*──────────────────*\n*Nome do bot:* NABUTOBOT\n*─────────────────*\n『 *𝐕𝐈𝐏 𝐔𝐒𝐄𝐑*』\n*──────────────────*\n*•Número:* *${sender.split("@s.whatsapp.net")[0]}*\n*•Status:* *ATIVO*\n*──────────────────*\n*Status Bot:* *${kyun(uptime)}*\n\n*VOCE É UM MEMBRO PREMIUM* \n*──────────────────*` , text, { quoted: mek, })
@@ -3316,7 +3313,7 @@ break
                     if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
 					sa = await getBuffer(`https://i.ibb.co/PcQ6tsB/79ac87b9358c.jpg`)
-					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/556993733829*╰──────*「 *CYCHRIS* 」*────*\n\n*_SE QUER SER UM USUÁRIO PREMIUM DA AKAME BOT_*\n*_Ketik #daftarvip*' })
+					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/558196207906*╰──────*「 *CYCHRIS* 」*────*\n\n*_SE QUER SER UM USUÁRIO PREMIUM DA AKAME BOT_*\n*_Ketik #daftarvip*' })
 					break
 					case 'cekmod': 
  
@@ -3390,22 +3387,22 @@ break
 					break
 				case 'bomdia':
 					memein = await kagApi.memeindo()
-					buffer = await getBuffer(`https://ibb.co/jwKSx6W`)
+					buffer = await getBuffer(`https://i.pinimg.com/originals/23/68/76/236876309cd99fdbf37a23a0a115a9ba.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Bom dia glr'})
 					break
 				case 'boatarde':
 					memein = await kagApi.memeindo()
-					buffer = await getBuffer(`https://ibb.co/1JQshM1`)
+					buffer = await getBuffer(`https://i.pinimg.com/originals/d6/3c/f6/d63cf69762f18f626c97c7911027ce43.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Boa tarde, bo lacha slk'})
 					break
 				case 'boanoite':
 					memein = await kagApi.memeindo()
-					buffer = await getBuffer(`https://ibb.co/J3b3NRg`)
+					buffer = await getBuffer(`https://i.pinimg.com/originals/a8/d0/f4/a8d0f4968d5b0e4ffa7ff90cb3ea70be.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Boa noite, seus dlc'})
 					break
 					case 'flamengo':
 					memein = await kagApi.memeindo()
-					buffer = await getBuffer(`https://ibb.co/55xqpg1`)
+					buffer = await getBuffer(`https://i.pinimg.com/originals/63/8b/1a/638b1a87648be36eb672053470982be4.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: '👀️'})
 					break
                 case 'belle':                 
@@ -3424,7 +3421,7 @@ break
 					case 'chris':
                                         memein = await kagApi.memeindo()
                                         buffer = await getBuffer(`https://i.pinimg.com/originals/85/03/21/850321a4edc9797570ed1091fa62fac9.jpg`)
-                                       client.sendMessage(from, buffer, image, {quoted: mek, caption: '*NOME*: Cychris /n *CONTATO*: wa.me//5581996207906 /n amimir😴'})
+                                       client.sendMessage(from, buffer, image, {quoted: mek, caption: '*NOME*: Cychris\n*CONTATO*: wa.me//5581996207906\n*se quiser que ele faça um bot pra voce, e so ter calma'})
                                              break 
 				case 'lofi':
 					memein = await kagApi.memeindo()
