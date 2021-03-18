@@ -6,6 +6,7 @@ const help = (prefix) => {
  *DONO*: ৡৢ͜͡𝐀𝐌||𝐂𝐲~𝑪𝑯𝑹𝑰𝑺 $
  *WHATSAPP*: wa.me//5581996207906
  *VERÇAO*: 1.5 BETA
+ *${prefix}chris*
  ▬▬▬▬▬▬▬【☪】▬▬▬▬▬▬▬
  *PREFIXO*:[/] [!]
  ▬▬▬▬▬▬▬【☪】▬▬▬▬▬▬▬
@@ -24,6 +25,7 @@ const help = (prefix) => {
 ➛ *${prefix}meme* [memes aleatórios]
 ➛ *${prefix}nabutojokes* [memes2]
 ➛ *${prefix}tts pt* [seu texto]
+➛ *${prefix}flamengo* [testa ae]
 ➛ *${prefix}ping* [velocidade]
 ➛ *${prefix}owner ou dono* [info do criador]
 
